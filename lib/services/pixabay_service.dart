@@ -4,7 +4,7 @@ import '../models/image_model.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class PixabayService {
-  static String get _apiKey => dotenv.env['PIXABAY_API_KEY'] ?? '';
+  static String _apiKey = '46395227-8294e08c521904fa9bb2b27c4';
 
   /// Fetch images from the Pixabay API with a specified number of images.
   static Future<List<ImageModel>> fetchImages(int page, {int imageCount = 20}) async {
