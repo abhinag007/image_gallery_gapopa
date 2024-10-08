@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import '../models/image_model.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class PixabayService {
   static String _apiKey = '46395227-8294e08c521904fa9bb2b27c4';
