@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/image_model.dart';
 
 class PixabayService {
-  static String _apiKey = 'XXXXXXX-XXXXXXXXXXXXXXX';
+  static String _apiKey = '46395227-8294e08c521904fa9bb2b27c4';
 
   /// Fetch images from the Pixabay API with a specified number of images.
   static Future<List<ImageModel>> fetchImages(int page, {int imageCount = 20}) async {
